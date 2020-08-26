@@ -11,7 +11,7 @@ function Header() {
               <Buttons className="button" href="#">Brasil</Buttons>
               <Buttons href="#">World Wide</Buttons>
               <Buttons href="#">About</Buttons>
-              <Buttons href="#">Support Us</Buttons>
+              <Buttons href="https://github.com/PabloLopes19/WeatherApp" target="_blank">Support Us</Buttons>
             </Menu>
         </Left>
         <Right>

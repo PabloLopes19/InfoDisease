@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 
 import './GlobalStyles.css';
-import Header from './components/Header';
+import DashBoard from './pages/DashBoard';
 
 function App() {
   return (
     <div className="App">      
-      <Header />
+      <DashBoard />
     </div>
   );
 }

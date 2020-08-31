@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# WeatherApp
 
-## Available Scripts
+> v0.1 ALPHA
+____
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O WeatherApp é um projeto desenvolvido pelos alunos da Escola Técnica Tupy, Pablo Lopes Caios Bornatto e Elias Kersten. O projeto consiste em uma aplicação Web desenvolvida em ReactJs e que tem o simples objetivo de informar para os usuários as condições climáticas sobre determinado local, e informar as condições e o avanço do COVID-19 dentro e fora do Brasil.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+A aplicação consiste em básicamente cinco páginas, a página **Dashboard** simplesmente da as boas vindas à aplicação e mostra alguns dados de países escolhidos estaticamente. As outras duas páginas o usuário pode realmente ver os dados desejados, escolhendo entre **Brasil** e **Mundo**. A quarta página é **sobre** os desenvolvedores, apenas falando sobre nós, o projeto e os desenvolvedores das APIs que nos possibiliataram desenvolver essa aplicação (Obrigado! :)). A quinta e última página é o **Support Us** que redireciona o usuário para esse repositório no github, onde ele pode divulgar o projeto ou contribuir para o desenvolvimento dele após a publicação da versão LTS.
 
-### `yarn test`
+___
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Open Source
 
-### `yarn build`
+Esse é um projeto de código aberto! :D Isso significa que você pode baixa-lo na sua máquina, digitando o seguinte comando no seu Terminal: `git clone https://github.com/PabloLopes19/WeatherApp.git`. Você pode trazer novas funcionalidades e elas podem ser adicionadas na versão final da aplicação em futuras atualizações!
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias usadas:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[React Js]()
+[Node Js]() (Não desenvolvido por nós :/ )
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+--- 
 
-### `yarn eject`
+## APIs usadas:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Weather](https://github.com/CaioBornatto/caiob-weahter-app)
+- [COVID-19](https://covid19-brazil-api.now.sh/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Dêem uma força para esse trabalho incrível que eles estão fazendo! :)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## UI/UX
 
-## Learn More
+![Dashboard](./screenshots/AppScreenshot1.jpeg "Dashboard Light Theme")
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Teremos também uma opção para os amantes de Dark Mode!! :D
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![DarkMode](./screenshots/DarkMode.jpg "DarkMode")
 
-### Code Splitting
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# Devs
 
-### Analyzing the Bundle Size
+## [Pablo Lopes](https://github.com/PabloLopes19)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Dev React/React Native
+- UI/UX
+- Development and Art Director
 
-### Making a Progressive Web App
+## [Caio Bornatto](https://github.com/CaioBornatto)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Dev NodeJs
+- Suporte React/React Native
+- App Data Director
 
-### Advanced Configuration
+## [Elias Kersten](https://www.youtube.com/channel/UClSzLCvmkSRnFk-Rh0pX4Ig)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- UI/UX
+- Art and User Interface development
+- Creative development

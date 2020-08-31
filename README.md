@@ -1,4 +1,4 @@
-# WeatherApp
+# WeatherApp  
 
 > v0.1 ALPHA
 
@@ -13,8 +13,8 @@ Esse é um projeto de código aberto! :D Isso significa que você pode baixa-lo 
 
 ## Tecnologias usadas:
 
-[React Js](https://pt-br.reactjs.org/)
-[Node Js](https://nodejs.org/en/) 
+- [React Js](https://pt-br.reactjs.org/)
+- [Node Js](https://nodejs.org/en/) 
 
 
 

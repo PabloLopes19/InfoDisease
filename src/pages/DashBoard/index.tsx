@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { Container, Content, Title, TitleMedium, Description, CardsArea, Cards, Link, LinkText, CardContainer, HorizontalDiv, GlobeIcon, BrazilIcon, CardContainerText } from './styles';
 
@@ -9,12 +9,17 @@ import Footer from '../../components/Footer';
 import api from '../../services/api';
 
 function DashBoard() {
+  const [countries, setCountries] = useState([]);
+
 
   useEffect(() => {
     api.get('/api/report/v1/countries')
     .then(response => {
-        // console.log(`${response.data.data.country} possui ${response.data.data.cases} casos, ${response.data.data.deaths} mortes e ${response.data.data.recovered} recuperados`);
+        // var myData = response.data.data.country;
+        // console.log(`${response.data.data.country} possui ${response.data.data.cases} casos, ${response.data.data.deaths} mortes e ${response.data.data.recovered} recuperados`);        
+        
         console.log(response.data.data);
+
     })
     .catch(err => {
         console.log(err);

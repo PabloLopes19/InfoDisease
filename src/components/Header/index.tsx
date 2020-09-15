@@ -1,17 +1,21 @@
 import React from 'react';
 
 import { Container, WeatherAppLogo, WeatherAppTitle, Menu, Buttons, DarkModeButton, DarkModeIcon, Left, Right } from './styles';
+import { Link } from 'react-router-dom';
+import './styles.css';
+
+// import Routes from '../../routes';
 
 function Header() {
   return (
       <Container>
         <Left>
-          <WeatherAppLogo /><WeatherAppTitle>WeatherApp</WeatherAppTitle>
+          <WeatherAppLogo /><WeatherAppTitle><Link className="btnTextLogo" to="/">WeatherApp</Link></WeatherAppTitle>
             <Menu>
-              <Buttons className="button" href="#">Brasil</Buttons>
-              <Buttons href="#">World Wide</Buttons>
-              <Buttons href="#">About</Buttons>
-              <Buttons href="https://github.com/PabloLopes19/WeatherApp" target="_blank">Support Us</Buttons>
+              <Link className="btnLink" to="/">Brasil</Link>
+              <Link className="btnLink" to="/worldwide">Mundo</Link>
+              <Link className="btnLink" to="/about">Sobre</Link>
+              <Buttons className="btnLink" href="https://github.com/PabloLopes19/WeatherApp" target="_blank">Contribuir</Buttons>
             </Menu>
         </Left>
         <Right>

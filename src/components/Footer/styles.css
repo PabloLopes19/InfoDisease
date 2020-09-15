@@ -1,0 +1,17 @@
+.btnLink:hover .icon{
+    transform: translateY(-5px);
+}
+.btnLink:hover .btnText{
+    color: #3498DB;
+    transform: translateY(20px);
+}
+.icon{
+    transition: all 0.2s;
+}
+.btnText{
+    position: absolute;
+    transform: translateY(30px);
+    font-size: 12px;
+    color: transparent;
+    transition: all 0.2s;
+}

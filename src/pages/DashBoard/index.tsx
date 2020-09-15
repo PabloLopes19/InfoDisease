@@ -17,8 +17,14 @@ function DashBoard() {
     .then(response => {
         // var myData = response.data.data.country;
         // console.log(`${response.data.data.country} possui ${response.data.data.cases} casos, ${response.data.data.deaths} mortes e ${response.data.data.recovered} recuperados`);        
-        
-        console.log(response.data.data);
+
+        setCountries(response.data);
+
+            const countryList = countries.map(country => {
+            console.log(country);
+        });
+
+        console.log(countryList);
 
     })
     .catch(err => {

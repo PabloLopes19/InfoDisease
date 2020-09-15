@@ -1,0 +1,20 @@
+.btnLink{
+    color: #272727;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 10px; 
+    border-radius: 15px;
+    transition: background 0.3s;
+}
+.btnLink:hover{
+    color: #fff;
+    background: #3498DB;
+}
+.btnTextLogo{
+    color: #3498DB;
+    /* border-right: 1px solid #3498DB; */
+    padding-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}

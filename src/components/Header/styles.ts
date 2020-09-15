@@ -41,11 +41,14 @@ export const Buttons = styled.a`
     font-weight: bold;
     text-decoration: none;
     margin-right: 10px;
-    padding: 5px 5px; 
-    transition: all 0.3s;
+    padding: 5px 10px; 
+    border-radius: 15px;
+    transition: background 0.3s;
 
     &:hover{
-        color: rgba(39, 39, 39, 0.3);
+        /* color: rgba(39, 39, 39, 0.3); */
+        color: #fff;
+        background: #3498DB;
     }
 `;
 export const DarkModeButton = styled.div`

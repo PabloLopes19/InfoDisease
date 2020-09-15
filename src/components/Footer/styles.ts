@@ -24,6 +24,7 @@ export const Button = styled.a`
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: #3498DB;
     margin: 0 10px;
     border-radius: 6px;
@@ -32,6 +33,7 @@ export const Button = styled.a`
 
     &:hover{
         background: #ddd;
+        color: #3498DB;
     }
 `;
 export const Info = styled(AiFillInfoCircle)`

@@ -1,0 +1,13 @@
+.BtnSocialMedia:hover .Icon{
+    transform: translateY(-3px);
+    color: rgba(255, 255, 255, 0.8);
+}
+.BtnSocialMedia:hover{
+    background: #2a7aaf;
+}
+.BtnSocialMedia{
+    transition: all 0.2s;
+}
+.Icon{
+    transition: all 0.2s;
+}

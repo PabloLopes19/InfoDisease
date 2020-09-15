@@ -64,7 +64,15 @@ export const LinkText = styled.a`
   font-size: 15px;
   text-align: center;
   margin-top: 20px;
-  height: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  /* background: #ddd; */
+  transition: all 0.2s;
+
+  &:hover{
+    color: #2a7aaf;
+  }
 `;
 
 export const CardContainer = styled.div`

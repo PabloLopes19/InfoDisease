@@ -14,12 +14,13 @@ export const Container = styled.div`
     align-items: center;
     background: #fff;
     padding: 5px 16px;
+    height: 60px;
     justify-content: space-between;
 `;
 
 export const WeatherAppLogo = styled(WiDayCloudy)`
-    width: 64px;
-    height: 64px;
+    width: 50px;
+    height: 50px;
     flex-shrink: 0;
     fill: #3498DB;
 `;

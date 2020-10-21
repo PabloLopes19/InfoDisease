@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
-import { AiFillGithub, AiOutlineInstagram, AiFillLinkedin, AiFillRedditCircle } from 'react-icons/ai';
+import { AiFillGithub, AiOutlineInstagram, AiFillLinkedin, AiFillRedditCircle, AiFillYoutube } from 'react-icons/ai';
 import { FaDiscord } from 'react-icons/fa';
 
 import PabloUserImg from '../../assets/MyUserImg.jpg';
 import CaioUserImg from '../../assets/CaioProfilePic.jpeg';
+import EliasUserImg from '../../assets/EliasProfilePIc.jpeg';
 
 export const LeftCard = styled.div`
   width: 80%;
@@ -44,6 +45,17 @@ export const PhotoSideCaio = styled.div`
     /* background: black; */
     background-image: url(${CaioUserImg});
     background-size: cover;
+    margin-left: 30px;
+    margin-right: 30px;
+`;
+export const PhotoSideElias = styled.div`
+    width: 191px;
+    height: 191px;
+    border-radius: 16px;
+    /* background: black; */
+    background-image: url(${EliasUserImg});
+    background-size: cover;
+    background-position-y: 30%;
     margin-left: 30px;
     margin-right: 30px;
 `;
@@ -145,5 +157,8 @@ export const Linkedin = styled(AiFillLinkedin)`
     height: 25px; width: 25px;
 `;
 export const Reddit = styled(AiFillRedditCircle)`
+    height: 25px; width: 25px;
+`;
+export const Youtube = styled(AiFillYoutube)`
     height: 25px; width: 25px;
 `;

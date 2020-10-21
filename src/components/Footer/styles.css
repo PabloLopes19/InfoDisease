@@ -1,7 +1,7 @@
-.btnLink:hover .icon{
+.btnLinkFooter:hover .icon{
     transform: translateY(-5px);
 }
-.btnLink:hover .btnText{
+.btnLinkFooter:hover .btnText{
     color: #3498DB;
     transform: translateY(20px);
 }
@@ -11,7 +11,35 @@
 .btnText{
     position: absolute;
     transform: translateY(30px);
+    font-weight: bold;
     font-size: 12px;
     color: transparent;
     transition: all 0.2s;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.btnLinkFooter{
+    width: 70px; height: 70px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #3498DB;
+    margin: 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btnLinkFooter:hover{
+    color: #3498DB;
+    background: #ddd;
+}
+.DoctorVector{
+    width: 100%;
 }

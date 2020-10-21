@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { LeftCard, RightCard, DataSide, PhotoSide, PhotoSideCaio, DataSideTop, DataSideBottom, DataSideTopLeft, DataSideTopLeftReverse, DataSideTopRight, DataSideTopRightReverse, DataTitle, DataDescription, DataText, BtnSocialMedia, Github, Instagram, Discord, Linkedin, Reddit, DataSideTopReverse } from './styles';
+import { LeftCard, RightCard, DataSide, PhotoSide, PhotoSideCaio, DataSideTop, DataSideBottom, DataSideTopLeft, DataSideTopLeftReverse, DataSideTopRight, DataSideTopRightReverse, DataTitle, DataDescription, DataText, BtnSocialMedia, Github, Instagram, Linkedin, Reddit, Youtube, DataSideTopReverse, PhotoSideElias } from './styles';
 
 import './styles.css';
 
@@ -46,7 +46,7 @@ const PeopleCardLarge: React.FC = () => {
             </DataSide>
         </RightCard>
         <LeftCard>
-            <PhotoSide />
+            <PhotoSideElias />
             <DataSide>
                 <DataSideTop>
                     <DataSideTopLeft>
@@ -54,7 +54,7 @@ const PeopleCardLarge: React.FC = () => {
                         <DataDescription>UI/UX Designer | Youtuber</DataDescription>
                     </DataSideTopLeft>
                     <DataSideTopRight>
-                        <BtnSocialMedia href="https://www.linkedin.com/in/pablo-lopes-35b250191/" target="_blank" className="BtnSocialMedia"><Linkedin className="Icon"/></BtnSocialMedia>
+                        <BtnSocialMedia href="https://www.youtube.com/channel/UClSzLCvmkSRnFk-Rh0pX4Ig" target="_blank" className="BtnSocialMedia"><Youtube className="Icon"/></BtnSocialMedia>
                         <BtnSocialMedia href="https://github.com/PabloLopes19" target="_blank"  className="BtnSocialMedia"><Github className="Icon"/></BtnSocialMedia>
                         <BtnSocialMedia href="https://www.instagram.com/pablolopes19/" target="_blank" className="BtnSocialMedia"><Instagram className="Icon"/></BtnSocialMedia>
                     </DataSideTopRight>

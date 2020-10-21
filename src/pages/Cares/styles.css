@@ -1,0 +1,101 @@
+html{
+    /* overflow-y: hidden; */
+    scroll-behavior: smooth;
+}
+.Page1ArrowText{
+    transition: all 0.2s;
+}
+.BottomArrow{
+    transition: all 0.2s;
+}
+.Page1Arrow:hover .Page1ArrowText{
+    color: #3498DB;
+    transform: translateY(-7px);
+}
+.Page1Arrow:hover .BottomArrow{
+    transform: translateY(7px);
+}
+.Page1ArrowTextWhite{
+    transition: all 0.2s;
+}
+.BottomArrowWhite{
+    transition: all 0.2s;
+}
+.Page1ArrowWhite:hover .Page1ArrowTextWhite{
+    color: #fff;
+    transform: translateY(-7px);
+}
+.Page1ArrowWhite:hover .BottomArrowWhite{
+    transform: translateY(7px);
+}
+.coloredTitle{
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+}
+.backText{
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.2s;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.backArea:hover .backText{
+    color: rgba(255, 255, 255, 0.6);
+    transform: translateX(5px);
+}
+.backArea:hover .backIcon{
+    color: rgba(255, 255, 255, 0.6);
+    transform: translateX(3px);
+}
+.backIcon{
+    transform: translateX(5px);
+    transition: all 0.2s;
+}
+.backTextBlack{
+    font-weight: bold;
+    color: rgb(52, 152, 219);
+    transition: all 0.2s;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.backAreaBlack:hover .backTextBlack{
+    color: rgba(52, 152, 219, 0.6);
+    transform: translateX(5px);
+}
+.backAreaBlack:hover .backIconBlack{
+    color:  rgba(52, 152, 219, 0.6);
+    transform: translateX(3px);
+}
+.backIconBlack{
+    transform: translateX(5px);
+    transition: all 0.2s;
+}
+.WFH1{
+    transform: translateY(50px);
+    width: 80%;
+    /* background: tomato; */
+}
+.WFH2{
+    width: 70%;
+    /* background: tomato; */
+    transform: translateY(-50px);
+}
+.WFH3{
+    width: 70%;
+    /* background: tomato; */
+    transform: translateY(-50px);
+    width: 30%;
+    transform: translateY(50px);
+    margin: -50px;
+}

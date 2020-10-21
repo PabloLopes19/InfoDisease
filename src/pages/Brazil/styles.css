@@ -1,0 +1,36 @@
+.cardsArea{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    justify-content: center;
+}
+.DataHeader{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    /* background: #ccc; */
+}
+.DataHeader strong{
+    text-align: left;
+}
+#loadingText{
+    color: #3498DB;
+    text-align: center;
+    width: 100%;
+    /* background: gray; */
+}
+.loadingArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    /* background: #333; */
+    border-radius: 6px;
+}
+#loadingImg{
+    width: 75px; height: 75px;
+    transition: all 0.2s;
+}

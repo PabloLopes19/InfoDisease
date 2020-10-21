@@ -12,7 +12,7 @@ function Header() {
         <Left>
           <WeatherAppLogo /><WeatherAppTitle><Link className="btnTextLogo" to="/">WeatherApp</Link></WeatherAppTitle>
             <Menu>
-              <Link className="btnLink" to="/">Brasil</Link>
+              <Link className="btnLink" to="/brazil">Brasil</Link>
               <Link className="btnLink" to="/worldwide">Mundo</Link>
               <Link className="btnLink" to="/about">Sobre</Link>
               <Buttons className="btnLink" href="https://github.com/PabloLopes19/WeatherApp" target="_blank">Contribuir</Buttons>

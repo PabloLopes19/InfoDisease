@@ -4,7 +4,7 @@ import { WiCloud } from 'react-icons/wi'
 
 export const Container = styled.div`
     width: 300px;
-    height: 350px;
+    height: 250px;
     background: #fff;
     box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
@@ -12,9 +12,17 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     margin: 0 20px;
+    transition: all 0.2s;
     cursor: pointer;
     border: 3px solid transparent;
     transition: all 0.2s;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 
 
     &:hover{
@@ -65,10 +73,14 @@ export const Desc = styled.p`
     font-weight: bold;
 `;
 export const CovidHeader = styled.h1`
-    font-size: 20px;
-    color: #E74C3C;
+    font-size: 25px;
+    color: #FFF;
+    background: #E74C3C;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    width: 45%;
+    text-align: center;
+    border-radius: 35px;
 `;
 export const CovidDataTitle = styled.div`
     font-size: 15px;

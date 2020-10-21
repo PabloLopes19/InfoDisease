@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 
 import { Container, Content, Title, TitleMedium, Description, CardsArea, Cards, Link, LinkText, CardContainer, HorizontalDiv, GlobeIcon, BrazilIcon, CardContainerText } from './styles';
 
@@ -9,7 +9,7 @@ import Footer from '../../components/Footer';
 import api from '../../services/api';
 
 function DashBoard() {
-  const [countries, setCountries] = useState([]);
+//   const [countries, setCountries] = useState([]);
 
 
   useEffect(() => {
@@ -18,13 +18,15 @@ function DashBoard() {
         // var myData = response.data.data.country;
         // console.log(`${response.data.data.country} possui ${response.data.data.cases} casos, ${response.data.data.deaths} mortes e ${response.data.data.recovered} recuperados`);        
 
-        setCountries(response.data);
+        // setCountries(response.data);
 
-            const countryList = countries.map(country => {
-            console.log(country);
-        });
+        // const countryList = countries.map(country => {
+        //     console.log(country);
 
-        console.log(countryList);
+        //     return country;
+        // });
+
+        // console.log(countryList);
 
     })
     .catch(err => {

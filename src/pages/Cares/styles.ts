@@ -3,18 +3,17 @@ import styled from 'styled-components';
 // Ícones
 import { IoIosArrowDown, IoIosArrowBack } from 'react-icons/io';
 
-//Vetores
-// import DoctorVector from '../../assets/Vectors/undraw_medical_research_qg4.png';
-
 // Areas
 
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
+    scroll-behavior: smooth;
 `;
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
+    scroll-behavior: smooth;
 `;
 export const Page1 = styled.div`
     width: 100%; height: 100vh;
@@ -23,6 +22,7 @@ export const Page1 = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    scroll-behavior: smooth;
 `;
 export const Page2 = styled.div`
     width: 100%; height: 100vh;
@@ -31,6 +31,7 @@ export const Page2 = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    scroll-behavior: smooth;
 `;
 export const Page3 = styled.div`
     width: 100%; height: 100vh;

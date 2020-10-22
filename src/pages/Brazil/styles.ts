@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const Content = styled.div`
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 `;
 export const DataContainer = styled.div`
     display: flex;

@@ -33,6 +33,7 @@ export const CardHeader = styled.h1`
     font-size: 30px;
     color: #000;
     margin-top: 30px;
+    text-align: center;
 `;
 export const WeatherContent = styled.div`   
     width: 100%;
@@ -46,6 +47,7 @@ export const Left = styled.div`
     align-items: center;
     width: 50%;
     height: 100%;
+    padding-right: 20px;
 `;
 export const WeatherIcon = styled(WiCloud)`
     fill: #3498DB;

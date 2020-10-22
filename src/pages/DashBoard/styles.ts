@@ -3,7 +3,10 @@ import styled from 'styled-components';
 import { FaGlobeAmericas } from 'react-icons/fa';
 import { GiBrazilFlag } from 'react-icons/gi';
 
-export const Container = styled.div``;
+export const Page = styled.div`
+  scroll-behavior: none;
+  animation: none;
+`;
 
 export const Content = styled.div`
   display: flex;
@@ -47,10 +50,10 @@ export const Cards = styled.div`
   flex-direction: row;
   width: 90%;
   align-items: center;
-  margin-top: 20px;
+  margin: 40px 0 40px 0;
 `;
 
-export const Link = styled.div`
+export const LinkArea = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -113,6 +116,7 @@ export const CardContainerText = styled.h1`
   font-size: 25px;
   color: rgba(0, 0, 0, 0.6);
   margin-top: 10px;
+  text-decoration: none;
 `;
 export const BrazilIcon = styled(GiBrazilFlag)`
   fill: #3498DB;

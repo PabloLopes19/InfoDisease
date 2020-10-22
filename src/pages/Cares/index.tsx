@@ -22,6 +22,9 @@ const Cares: React.FC = () => {
 
     useEffect(() => {
         Aos.init({ duration: 500 });
+
+
+        window.scrollTo(0, 0);
     }, []);
 
   return (

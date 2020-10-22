@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { Container, Content, PageTitle, PeopleTitle } from './styles';
 
@@ -9,6 +9,12 @@ import LargeCard from '../../components/PeopleCardLarge';
 import SquareCard from '../../components/PeopleCardSquare';
 
 const About: React.FC = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   return (
       <Container>
           <Header />

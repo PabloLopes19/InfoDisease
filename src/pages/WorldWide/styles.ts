@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Page = styled.div`
   display: flex;
   flex-direction: column;
 `;
 export const Content = styled.div`
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 100vh;
+    background: #ccc;
 `;
 
 export const InputArea = styled.div`
@@ -26,6 +29,16 @@ export const InputText = styled.select`
     padding-left: 30px;
     font-weight: bold;
     color: #272727;
+`;
+export const DataContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 6px;
+    padding: 0 10px;
+    width: 90%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 23px 3px rgba(0, 0, 0, 0.09);
 `;
 export const InputDate = styled.input``;
 export const CardsArea = styled.div``;

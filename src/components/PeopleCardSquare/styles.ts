@@ -15,7 +15,7 @@ export const Container = styled.div`
     width: 350px;
     height: 400px;
     /* background: #FFFFFF; */
-    box-shadow: 15px 15px 0px #3498DB;
+    box-shadow: 15px 15px 0px var(--shadow);
     border-radius: 6px;
     margin: 0 30px 0 30px;
     display: flex;
@@ -23,7 +23,7 @@ export const Container = styled.div`
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #fff;
+    background: var(--areaBackground);
 `;
 
 export const ContainerTop = styled.div`
@@ -45,7 +45,7 @@ export const ContainerTopLeft = styled.div`
     /* background: url(${ProfilePic});
     background-size: cover;
     background-repeat: no-repeat; */
-    background: #ddd;
+    background: var(--photo);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +84,7 @@ export const ContainerRightBottom = styled.div`
 `;
 export const Name = styled.h1`
     font-size: 23px;
-    color: #000;
+    color: var(--textTitle);
 `;
 export const ClassLine = styled.div`
     width: 100%;
@@ -93,18 +93,18 @@ export const ClassLine = styled.div`
 `;
 export const Class = styled.p`
     font-size: 14px;
-    color: #000;
+    color: var(--textDescription);
     font-weight: bold;
 `;
 export const ClassName = styled.p`
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--textDescription);
     font-weight: bold;
     margin-left: 5px;
 `;
 export const  SocialMediaButtons = styled.a`
     color: #fff;
-    background: #3498DB;
+    background: var(--socialMediaButtons);
     border-radius: 4px;
     margin: 0 0 0 10px;
     width: 48px; height: 48px;
@@ -116,7 +116,7 @@ export const CardText = styled.p`
     width: 90%;
     height: 100%;
     text-align: justify;
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--textDescription);
     font-size: 14px;
 `;
 

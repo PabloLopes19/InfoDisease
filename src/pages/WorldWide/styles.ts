@@ -33,7 +33,7 @@ export const InputText = styled.select`
 export const DataContainer = styled.div`
     display: flex;
     flex-direction: column;
-    background: #fff;
+    background: var(--areaBackground);
     border-radius: 6px;
     padding: 0 10px;
     width: 90%;

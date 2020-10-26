@@ -3,10 +3,26 @@ import React from 'react';
 import { Container, WeatherAppLogo, WeatherAppTitle, Menu, Buttons, DarkModeButton, DarkModeIcon, Left, Right } from './styles';
 import { Link } from 'react-router-dom';
 import './styles.css';
+import { ThemeName } from '../../styles/themes';
 
 // import Routes from '../../routes';
 
-function Header() {
+interface Props {
+  themeName: ThemeName;
+  setThemeName: (newName: ThemeName) => void; 
+}
+
+const Header: React.FC<Props> = ({ themeName, setThemeName }) => {
+
+  function toggleTheme() {
+    setThemeName(themeName === 'light' ? 'dark' : 'light');
+
+    localStorage.setItem('theme', themeName);
+
+    console.log(themeName);
+  }
+
+
   return (
       <Container>
         <Left>
@@ -20,7 +36,7 @@ function Header() {
         </Left>
         <Right>
           <DarkModeButton>
-            <DarkModeIcon />
+            <DarkModeIcon onClick={toggleTheme}/>
           </DarkModeButton>
         </Right>
       </Container>

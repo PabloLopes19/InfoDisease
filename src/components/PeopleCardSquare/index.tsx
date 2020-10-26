@@ -2,13 +2,15 @@ import React from 'react';
 
 import { Component, Container, ContainerTop, ContainerBottom, ContainerTopLeft, ContainerTopRight, ContainerRightTop, ContainerRightMid, ContainerRightBottom, Name, ClassLine, Class, ClassName, SocialMediaButtons, Instagram, CardText, Linkedin, Github } from './styles';
 
+import './styles.css';
+
 const PeopleCardSquare: React.FC = () => {
   return (
         <Component>
             <Container>
                 <ContainerTop>
                     <ContainerTopLeft>
-                        <p style={{ fontWeight: 'bold' }}>Photo</p>
+                        <p className="photoText">Photo</p>
                     </ContainerTopLeft>
                     <ContainerTopRight>
                         <ContainerRightTop><Name>Marcelo Petri</Name></ContainerRightTop>
@@ -39,7 +41,7 @@ const PeopleCardSquare: React.FC = () => {
             <Container>
                 <ContainerTop>
                     <ContainerTopLeft>
-                        <p style={{ fontWeight: 'bold' }}>Photo</p>
+                        <p className="photoText">Photo</p>
                     </ContainerTopLeft>
                     <ContainerTopRight>
                         <ContainerRightTop><Name>Talita Schmitt</Name></ContainerRightTop>
@@ -70,7 +72,7 @@ const PeopleCardSquare: React.FC = () => {
             <Container>
                 <ContainerTop>
                     <ContainerTopLeft>
-                        <p style={{ fontWeight: 'bold' }}>Photo</p>
+                        <p className="photoText">Photo</p>
                     </ContainerTopLeft>
                     <ContainerTopRight>
                         <ContainerRightTop><Name style={{ fontSize: 22 }}>Magno Schmitt</Name></ContainerRightTop>

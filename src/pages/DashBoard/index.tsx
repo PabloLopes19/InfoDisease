@@ -4,7 +4,6 @@ import { Page, Content, Title, TitleMedium, Description, CardsArea, Cards, LinkA
 import { Container, CardHeader, CovidHeader, CovidData, CovidLeft, CovidRight, CovidContent, CovidDataTitle } from '../../components/Cards/styles';
 import { Link } from 'react-router-dom';
 
-import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 import LoadingGif from '../../assets/Pulse-1s-200px(1).gif';
@@ -50,7 +49,6 @@ function DashBoard() {
   if(Loading === true){
     return (
         <Page>
-            <Header />
             <Content> 
               <Title>Seja bem-vindo!</Title>
               <Description>
@@ -83,7 +81,6 @@ function DashBoard() {
   }else {
     return (
         <Page>
-            <Header />
             <Content> 
               <Title>Seja bem-vindo!</Title>
               <Description>

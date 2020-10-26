@@ -17,7 +17,7 @@ export const Content = styled.div`
 `;
 export const Page1 = styled.div`
     width: 100%; height: 100vh;
-    background: #FFF;
+    background: var(--cardBackground);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,13 +52,13 @@ export const Page4 = styled.div`
 
 export const ColoredSide = styled.div`
     width: 50%; height: 100%;
-    background: #3498DB;
+    background: var(--coloredBackground);
     display: flex;
     flex-direction: column;
 `;
 export const WhiteSide = styled.div`
     width: 50%; height: 100%;
-    background: #fff;
+    background: var(--cardBackground);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,7 +92,7 @@ export const SideBottom = styled.div`
 
 export const Page1Title = styled.h1`
     font-size: 100px;
-    color: #000;
+    color: var(--textTitle);
     text-align: center;
 `;
 export const Page1Description = styled.p`
@@ -101,6 +101,7 @@ export const Page1Description = styled.p`
     line-height: 29px;
     text-align: center;
     width: 60%;
+    color: var(--textDescription);
 `;
 export const Page2Description = styled.p`
     font-weight: normal;
@@ -112,7 +113,7 @@ export const Page2Description = styled.p`
     margin-top: 20px;
 `;
 export const Page1Arrow = styled.a`
-    color: #3498DB;
+    color: var(--logo);
     font-size: 20px;
     padding: 15px;
     display: flex;
@@ -125,7 +126,7 @@ export const Page1Arrow = styled.a`
     flex-direction: column;
 `;
 export const Page1ArrowText = styled.p`
-    /* color: #3498DB; */
+    color: var(--logo);
     color: transparent;
     font-size: 15px;
     text-align: center;
@@ -190,7 +191,7 @@ export const AnimatedTextRight = styled.h1`
     text-align: center;
     display: flex;
     justify-content: center;
-    color: #000;
+    color: var(--textTitle);
     width: 100%;
     font-size: 60px;
     margin-top: -60px;

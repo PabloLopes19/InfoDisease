@@ -5,7 +5,7 @@ import { WiCloud } from 'react-icons/wi'
 export const Container = styled.div`
     width: 300px;
     height: 250px;
-    background: #fff;
+    background: var(--cardBackground);
     box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
     display: flex;
@@ -31,7 +31,7 @@ export const Container = styled.div`
 `;
 export const CardHeader = styled.h1`
     font-size: 30px;
-    color: #000;
+    color: var(--textTitle);
     margin-top: 30px;
     text-align: center;
 `;
@@ -64,12 +64,12 @@ export const Right = styled.div`
 
 `;
 export const Temp = styled.h1`
-    color: #000;
+    color: var(--textTitle);
     font-size: 50px;
     text-align: left;
 `;
 export const Desc = styled.p`
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--textDescription);
     font-size: 15px;
     text-align: left;
     font-weight: bold;
@@ -86,14 +86,14 @@ export const CovidHeader = styled.h1`
 `;
 export const CovidDataTitle = styled.div`
     font-size: 15px;
-    color: #000;
+    color: var(--textTitle);
     margin-top: 5px;
     text-align: left;
     font-weight: bold;
 `;
 export const CovidData = styled.div`
     font-size: 15px;
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--textDescription);
     margin-top: 5px;
     text-align: right;
     font-weight: bold;

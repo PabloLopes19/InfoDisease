@@ -1,18 +1,17 @@
 .btnLink{
-    color: #272727;
+    color: var(--textTitle);
     font-weight: bold;
     text-decoration: none;
     margin-right: 10px;
     padding: 5px 10px; 
     border-radius: 15px;
-    transition: background 0.3s;
+    transition: all 0.2s;
 }
 .btnLink:hover{
-    color: #fff;
-    background: #3498DB;
+    opacity: 0.3;
 }
 .btnTextLogo{
-    color: #3498DB;
+    color: var(--logo);
     /* border-right: 1px solid #3498DB; */
     padding-right: 10px;
     cursor: pointer;

@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { Page, DataContainer } from './styles';
 
 // Components
-import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 import { BiSearchAlt } from 'react-icons/bi';
@@ -50,7 +49,6 @@ const WorldWide: React.FC = () => {
   if(Loading === true){
     return (
       <Page>
-        <Header />
           <div className="Content">
             <div className="SearchArea">
                 <BiSearchAlt id="searchIcon"/>
@@ -73,7 +71,6 @@ const WorldWide: React.FC = () => {
   }else{
     return (
       <Page>
-        <Header />
           <div className="Content">
             <div className="SearchArea">
                 <BiSearchAlt id="searchIcon"/>

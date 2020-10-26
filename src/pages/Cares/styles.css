@@ -9,7 +9,7 @@ html{
     transition: all 0.2s;
 }
 .Page1Arrow:hover .Page1ArrowText{
-    color: #3498DB;
+    color: var(--logo);
     transform: translateY(-7px);
 }
 .Page1Arrow:hover .BottomArrow{
@@ -59,7 +59,7 @@ html{
 }
 .backTextBlack{
     font-weight: bold;
-    color: rgb(52, 152, 219);
+    color: var(--logo);
     transition: all 0.2s;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -70,11 +70,12 @@ html{
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 .backAreaBlack:hover .backTextBlack{
-    color: rgba(52, 152, 219, 0.6);
+    opacity: 0.3;
     transform: translateX(5px);
 }
 .backAreaBlack:hover .backIconBlack{
-    color:  rgba(52, 152, 219, 0.6);
+    color: var(--logo);
+    opacity: 0.3;
     transform: translateX(3px);
 }
 .backIconBlack{

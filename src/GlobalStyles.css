@@ -7,9 +7,11 @@
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased !important;
     scroll-behavior: auto;
+
+    transition: color 0.3s ease-out ;
 }
 
 html, body, #root{
     height: 100%;        
-    background: #F4F6F8;
+    background: var(--background);
 }

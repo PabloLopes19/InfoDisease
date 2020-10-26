@@ -10,9 +10,9 @@ import EliasUserImg from '../../assets/EliasProfilePIc.jpeg';
 export const LeftCard = styled.div`
   width: 80%;
   height: 218px;
-  background: #fff;
+  background: var(--areaBackground);
   border-radius: 6px;
-  box-shadow: 18px 18px 0px #3498DB;
+  box-shadow: 18px 18px 0px var(--shadow);
   margin-top: 50px;
   display: flex;
   align-items: center;
@@ -20,9 +20,9 @@ export const LeftCard = styled.div`
 export const RightCard = styled.div`
   width: 80%;
   height: 218px;
-  background: #fff;
+  background: var(--areaBackground);
   border-radius: 6px;
-  box-shadow: 18px 18px 0px #3498DB;
+  box-shadow: 18px 18px 0px var(--shadow);
   margin-top: 50px;
   display: flex;
   flex-direction: row-reverse;
@@ -116,16 +116,16 @@ export const DataSideTopRightReverse = styled.div`
 `;
 export const DataTitle = styled.h1`
     font-size: 30px;
-    color: #000;
+    color: var(--textTitle);
 `;
 export const DataDescription = styled.p`
     font-size: 20px;
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--textDescription);
     font-weight: bold;
 `;
 export const DataText = styled.p`
     font-size: 15px;
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--textDescription);
     font-weight: bold;
     width: 100%;
     height: 100%;
@@ -133,13 +133,14 @@ export const DataText = styled.p`
 `;
 export const BtnSocialMedia = styled.a`
     color: #fff;
-    background: #3498DB;
+    background: var(--socialMediaButtons);
     border-radius: 4px;
     margin: 0 10px 0 10px;
     width: 48px; height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.2s;
 `;
 
 // Icons

@@ -3,7 +3,7 @@
     color: rgba(255, 255, 255, 0.8);
 }
 .BtnSocialMedia:hover{
-    background: #2a7aaf;
+    opacity: 0.7;
 }
 .BtnSocialMedia{
     transition: all 0.2s;

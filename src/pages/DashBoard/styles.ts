@@ -16,15 +16,15 @@ export const Content = styled.div`
 `;
 export const Title = styled.h1`
   font-size: 80px;
-  color: #000;
+  color: var(--textTitle);
 `;
 export const TitleMedium = styled.h1`
   font-size: 40px;
   margin-top: 50px;
-  color: #000;
+  color: var(--textTitle);
 `;
 export const Description = styled.p`
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--textDescription);
   margin-top: 10px;
   width: 55%;
   text-align: center;
@@ -36,7 +36,9 @@ export const CardsArea = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  background: #fff;
+  background: var(--areaBackground);
+  border-top: 1px solid var(--borders);
+  border-bottom: 1px solid var(--borders);
   width: 100%;
   height: 550px;
   margin-top: 150px;
@@ -63,7 +65,7 @@ export const LinkArea = styled.div`
 export const LinkText = styled.a`
   text-decoration: none;
   font-weight: bold;
-  color: #3498DB;
+  color: var(--logo);
   font-size: 15px;
   text-align: center;
   margin-top: 20px;
@@ -74,14 +76,14 @@ export const LinkText = styled.a`
   transition: all 0.2s;
 
   &:hover{
-    color: #2a7aaf;
+    color: #ddd;
   }
 `;
 
 export const CardContainer = styled.div`
     width: 300px;
     height: 350px;
-    background: #fff;
+    background: var(--areaBackground);
     box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
     display: flex;
@@ -109,18 +111,18 @@ export const HorizontalDiv = styled.div`
 `;
 
 export const GlobeIcon = styled(FaGlobeAmericas)`
-  fill: #3498DB;
+  fill: var(--logo);
   width: 150px; height: 150px;
 `;
 export const CardContainerText = styled.h1`
   font-size: 25px;
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--textDescription);
   margin-top: 10px;
   text-decoration: none;
 `;
 export const BrazilIcon = styled(GiBrazilFlag)`
-  fill: #3498DB;
+  fill: var(--logo);
   width: 150px; height: 150px;
   border-radius: 50%;
-  border: 5px solid #3498DB;
+  border: 5px solid var(--logo);
 `;

@@ -8,7 +8,6 @@ import 'aos/dist/aos.css';
 
 // Componentes
 
-import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 // Imagens
@@ -16,7 +15,7 @@ import Footer from '../../components/Footer';
 import DoctorVector from '../../assets/Vectors/undraw_medical_research_qg4.png';
 import WFH1 from '../../assets/Vectors/work_from_home3.png';
 import WFH2 from '../../assets/Vectors/work_from_home2.png';
-import WFH3 from '../../assets/Vectors/work_from_home.png';
+import WFH3 from '../../assets/Frame 1.png';
 
 const Cares: React.FC = () => {
 
@@ -29,7 +28,6 @@ const Cares: React.FC = () => {
 
   return (
     <Container >
-        <Header />
         <Content>
             <Page1 id="page1">
                 <Page1Title>COVID-19</Page1Title>

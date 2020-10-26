@@ -3,7 +3,6 @@ import React, { useEffect } from 'react';
 import { Container, Content, PageTitle, PeopleTitle } from './styles';
 
 //Components
-import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import LargeCard from '../../components/PeopleCardLarge';
 import SquareCard from '../../components/PeopleCardSquare';
@@ -17,7 +16,6 @@ const About: React.FC = () => {
 
   return (
       <Container>
-          <Header />
           <Content>
             <PageTitle>Sobre nós</PageTitle>
             <PeopleTitle>Desenvolvedores</PeopleTitle>

@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { Content, DataContainer } from './styles';
 import api from '../../services/api';
 
-import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 import { Container, CardHeader, CovidHeader, CovidData, CovidLeft, CovidRight, CovidContent, CovidDataTitle } from '../../components/Cards/styles';
@@ -48,7 +47,6 @@ const Brazil: React.FC = () => {
     if(Loading === true){
         return(
             <div>
-                <Header />
                 <Content>
                     <div className="SearchArea">
                         <BiSearchAlt id="searchIcon"/>
@@ -69,7 +67,6 @@ const Brazil: React.FC = () => {
     }else{
         return (
             <div>
-                <Header />
                 <Content>
                     <div className="SearchArea">
                         <BiSearchAlt id="searchIcon"/>

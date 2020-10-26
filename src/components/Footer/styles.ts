@@ -10,7 +10,8 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #3498DB;
+  background: var(--footer);
+  border-top: 2px solid var(--borders);
   margin-top: 150px;
 `;
 
@@ -20,7 +21,7 @@ export const Content = styled.div`
 `;
 export const Button = styled.a`
     width: 70px; height: 70px;
-    background: #fff;
+    background: var(--footerButtons);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +33,6 @@ export const Button = styled.a`
     transition: all 0.2s;
 
     &:hover{
-        background: #ddd;
         color: #3498DB;
     }
 `;

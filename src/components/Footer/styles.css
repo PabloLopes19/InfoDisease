@@ -25,7 +25,7 @@
 }
 .btnLinkFooter{
     width: 70px; height: 70px;
-    background: #fff;
+    background: var(--footerButtons);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,8 @@
 }
 .btnLinkFooter:hover{
     color: #3498DB;
-    background: #ddd;
+    /* background: #ddd; */
+    opacity: 0.7;
 }
 .DoctorVector{
     width: 100%;

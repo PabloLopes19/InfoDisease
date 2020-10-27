@@ -1,0 +1,33 @@
+.repLink{
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--textDescription);
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.repLink:hover{
+    opacity: 0.6;
+    /* text-decoration: underline; */
+}
+.repName{
+    color: var(--textTitle);
+    font-size: 20px;
+}   
+.dev{
+    width: 100px;
+    font-size: 12px;
+    /* background: green; */
+    /* border-right: 2px solid var(--textDescription); */
+    font-weight: bold;
+    color: var(--textDescription);
+    text-align: center;
+}
+.dev:nth-child(1){
+    border-right: 2px solid var(--textDescription);
+}
+.devs{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    transform: translateX(-10px);
+}

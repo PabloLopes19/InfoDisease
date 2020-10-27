@@ -97,7 +97,7 @@ export const Page1Title = styled.h1`
 `;
 export const Page1Description = styled.p`
     font-weight: normal;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 29px;
     text-align: center;
     width: 60%;

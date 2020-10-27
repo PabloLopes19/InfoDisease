@@ -1,0 +1,65 @@
+.usedTechs{
+    display: flex;
+    flex-direction: column;
+    height: 100vh; width: 100%;
+    margin-top: 10px;
+    /* background: #ccc; */
+    align-items: center;
+}
+.techButtons{
+    /* background: yellow; */
+    width: 100%;
+    height: 50%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.techIcon{
+    color: var(--logo);
+    size: 50px;
+    transition: all 0.2s ;
+}
+.btnTech p{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--textDescription);
+    position: absolute;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.2s;
+}
+.btnTech:hover .techIcon{
+    transform: translateY(-20px);
+}
+.btnTech:hover  p{
+    opacity: 1;
+    transform: translateY(80px);
+}
+.usedApis{
+    display: flex;
+    flex-direction: column;
+    height: 70vh; width: 100%;
+    margin-top: 10px;
+    /* background: #ccc; */
+    align-items: center;
+}
+.downloadArtigo{
+    /* background: #ccc; */
+    width: 100%; height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.ThanksText h1{
+    font-size: 70px;
+    color: var(--logo);
+}
+.ThanksText p{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--logo);
+    margin-top: 10px;
+}

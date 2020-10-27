@@ -23,7 +23,26 @@ export const PageTitle = styled.h1`
 export const PeopleTitle = styled.h1`
     width: 70%;
     margin-top: 50px;
-    font-size: 35px;
+    font-size: 25px;
     color: var(--textTitle);
+    /* background: blue; */
     text-align: center;
+`;
+
+export const RepButton = styled.a`
+    width: 20%;
+    background: #3498DB;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    transform: translateY(50px);
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s;
+
+    &:hover{
+        color: #eee;
+    }
 `;

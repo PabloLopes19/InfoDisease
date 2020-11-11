@@ -11,7 +11,7 @@
     opacity: 0.3;
 }
 .btnTextLogo{
-    color: var(--logo);
+    color: var(--textTitle);
     /* border-right: 1px solid #3498DB; */
     padding-right: 10px;
     cursor: pointer;

@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-import ProfilePic from '../../assets/MyUserImg.jpg';
+import PetriProfilePic from '../../assets/MarceloPetriProfilePic.jpg';
+import TalitaProfilePic from '../../assets/TalitaProfilePic.jpg';
+import MagnoProfilePic from '../../assets/MagnoProfilePic.jpg';
 
 import { AiFillGithub, AiOutlineInstagram, AiFillLinkedin, AiFillRedditCircle } from 'react-icons/ai';
 import { FaDiscord } from 'react-icons/fa';
@@ -41,11 +43,39 @@ export const ContainerBottom = styled.div`
     display: flex;
     justify-content: center;
 `;
-export const ContainerTopLeft = styled.div`
-    /* background: url(${ProfilePic});
+export const PetriPhoto = styled.div`
+    background: url(${PetriProfilePic});
     background-size: cover;
-    background-repeat: no-repeat; */
-    background: var(--photo);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 72%;
+    /* width: 180px;
+    height: 180px; */
+    border-radius: 6px;
+`;
+export const TalitaPhoto = styled.div`
+    background: url(${TalitaProfilePic});
+    /* background-color: var(--photo); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 72%;
+    /* width: 180px;
+    height: 180px; */
+    border-radius: 6px;
+`;
+export const MagnoPhoto = styled.div`
+    background: url(${MagnoProfilePic});
+    /* background-color: var(--photo); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: var(--photo); */
     display: flex;
     justify-content: center;
     align-items: center;

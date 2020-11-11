@@ -14,7 +14,7 @@ function Footer() {
             <Link to="/cares" className="btnLinkFooter"><Virus className="icon"/><p className="btnText">Cuidados</p></Link>
             <Button className="btnLinkFooter"><Share className="icon"/><p className="btnText" style={{ fontSize: 10, }}>Compartilhar</p></Button>
         </Content>
-        <Copyright>WeatherApp | 2020</Copyright>
+        <Copyright>InfoDisease | 2020</Copyright>
     </Container>  
   );
 }

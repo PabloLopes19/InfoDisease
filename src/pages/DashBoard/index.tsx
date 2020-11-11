@@ -52,7 +52,7 @@ function DashBoard() {
             <Content> 
               <Title>Seja bem-vindo!</Title>
               <Description>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                O InfoDisease é uma aplicação voltada para o fornecimento e análise de dados sobre o avanço do corona vírus (COVID-19) dentro e fora do Brasil. Você terá acesso a dados sobre o número de vítimas, de recuperados e de infectados em todos os estados brasileiros e em todos os países no mundo. Caso você não queira ver todos os dados, você pode fazer uma pesquisa para filtrar os dados, tendo fazer a busca com os nomes dos países em inglês.
               </Description>
               <CardsArea>
                   <TitleMedium>Dados de países</TitleMedium>
@@ -84,7 +84,7 @@ function DashBoard() {
             <Content> 
               <Title>Seja bem-vindo!</Title>
               <Description>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                O InfoDisease é uma aplicação voltada para o fornecimento e análise de dados sobre o avanço do corona vírus (COVID-19) dentro e fora do Brasil. Você terá acesso a dados sobre o número de vítimas, de recuperados e de infectados em todos os estados brasileiros e em todos os países no mundo. Caso você não queira ver todos os dados, você pode fazer uma pesquisa para filtrar os dados, tendo fazer a busca com os nomes dos países em inglês.
               </Description>
               <CardsArea>
                   <TitleMedium>Dados de países</TitleMedium>
@@ -148,7 +148,7 @@ function DashBoard() {
               </CardsArea>
               <Title>COVID-19</Title>
               <Description>
-                  Por conta da pandemia mundial de COVID-19, o WeatherApp está fornecendo informações para os seus usuários quanto ao número de infectados, recuperados e mortes em todos os países do mundo e todos os estados brasileiros. Você pode acessar a página dos estados brasileiros, onde terá o clima do estado e o avanço do corona vírus nesse estado. Você também pode ver o avanço da pandemia no resto do mundo, acessar os países listados no site.
+                  Por conta da pandemia mundial de COVID-19, o InfoDisease fornece informações para os seus usuários quanto ao número de infectados, recuperados e mortes em todos os países do mundo e todos os estados brasileiros. Você pode acessar a página dos estados brasileiros, onde terá o clima do estado e o avanço do corona vírus nesse estado. Você também pode ver o avanço da pandemia no resto do mundo, acessando os países listados no site.
               </Description>
               <HorizontalDiv>
                   <Link style={{ textDecoration: 'none' }} to="/brazil">

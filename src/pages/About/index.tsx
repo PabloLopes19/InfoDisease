@@ -66,7 +66,7 @@ const About: React.FC = () => {
 
               <div className="ThanksText">
                 <h1>Obrigado!</h1>
-                <p>Equipe WeatherApp</p>
+                <p>Equipe InfoDisease</p>
               </div>
             </div>
           </Content>

@@ -27,10 +27,17 @@ export const WeatherAppLogo = styled(WiDayCloudy)`
 `;
 
 export const WeatherAppTitle = styled.h1`
-    color: #3498DB;
+    /* color: var(--textTitle); */
     border-right: 1px solid var(--logo);
     padding-right: 10px;
+    font-family: 'Ubuntu';
+    font-size: 20px;
     cursor: default;
+`;
+export const WheaterAppTitleBold = styled.strong`
+    color: #3498D8;
+    font-family: 'Ubuntu';
+    font-size: 20px;
 `;
 export const Menu = styled.div`
     display: flex;

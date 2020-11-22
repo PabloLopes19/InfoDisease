@@ -28,6 +28,12 @@ export const Container = styled.div`
     &:hover{
         border: 3px solid #3498DB;
     }
+
+    @media(max-width: 1200px){
+        &:hover{
+            border: 3px solid transparent;
+        }
+    }
 `;
 export const CardHeader = styled.h1`
     font-size: 30px;

@@ -91,7 +91,7 @@ export const SideBottom = styled.div`
 // Componentes
 
 export const Page1Title = styled.h1`
-    font-size: 100px;
+    font-size: 80px;
     color: var(--textTitle);
     text-align: center;
 `;

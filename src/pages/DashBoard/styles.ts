@@ -6,6 +6,28 @@ import { GiBrazilFlag } from 'react-icons/gi';
 export const Page = styled.div`
   scroll-behavior: none;
   animation: none;
+
+  .Swiper{
+    /* background: #000; */
+    display: flex;
+    justify-content: center;
+    width: 340px; height: 300px;
+    border-radius: 6px;
+    margin: 50px 0 0 0;
+    display: none;
+  }
+  .SwiperPages{
+    display: flex;
+    justify-content: center;
+    width: 340px;
+    border-radius: 6px;
+    margin: 50px 0;
+    display: none;
+  }
+  #teste{
+    width: 300px; height: 300px;
+    background: #fff;
+  }
 `;
 
 export const Content = styled.div`

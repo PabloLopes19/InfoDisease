@@ -12,3 +12,6 @@
     font-weight: bold;
     color: var(--textDescription);
 }
+.mobile{
+    display: none;
+}

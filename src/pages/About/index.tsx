@@ -24,7 +24,7 @@ const About: React.FC = () => {
   return (
       <Container>
           <Content>
-            <PageTitle>Sobre nós</PageTitle>
+            <PageTitle id="Title">Sobre nós</PageTitle>
             <PeopleTitle>Desenvolvedores</PeopleTitle>
 
             <LargeCard />
@@ -50,7 +50,7 @@ const About: React.FC = () => {
                   </CardContainer>
                 </a>
               </div>
-              <RepButton href="https://github.com/PabloLopes19/WeatherApp" target="_blank">Acesse o nosso repositório</RepButton>
+              <RepButton id="RepButton" href="https://github.com/PabloLopes19/WeatherApp" target="_blank">Acesse o nosso repositório</RepButton>
             </div>
 
             <div className="usedApis">

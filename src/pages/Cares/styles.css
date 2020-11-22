@@ -100,3 +100,6 @@ html{
     transform: translateY(50px);
     margin: -50px;
 }
+#AnimatedText2{
+    display: none;
+}

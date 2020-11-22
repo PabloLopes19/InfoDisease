@@ -5,7 +5,7 @@ import { FaRegLightbulb } from 'react-icons/fa';
 
 export const Left = styled.div`
     display: flex; 
-    align-items: center;
+    align-items: center;    
 `;
 export const Right = styled.div``;
 
@@ -73,4 +73,20 @@ export const DarkModeIcon = styled(FaRegLightbulb)`
     &:hover{
         opacity: 0.7;
     }
+`;
+
+export const SideBarMenu = styled.div`
+    height: 100%; width: 70%;
+    display: flex;
+    flex-direction: column;
+    background: var(--background);
+    color: var(--textDescription);
+    /* padding: 5px 20px; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0 0 70px rgba(0, 0, 0, 0.1);
+    animation-name: Menu;
+    animation-duration: 0.3s;
 `;

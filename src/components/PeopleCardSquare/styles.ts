@@ -4,7 +4,7 @@ import PetriProfilePic from '../../assets/MarceloPetriProfilePic.jpg';
 import TalitaProfilePic from '../../assets/TalitaProfilePic.jpg';
 import MagnoProfilePic from '../../assets/MagnoProfilePic.jpg';
 
-import { AiFillGithub, AiOutlineInstagram, AiFillLinkedin, AiFillRedditCircle } from 'react-icons/ai';
+import { AiFillGithub, AiOutlineInstagram, AiFillLinkedin, AiFillRedditCircle, AiFillFacebook } from 'react-icons/ai';
 import { FaDiscord } from 'react-icons/fa';
 
 export const Component = styled.div`
@@ -16,6 +16,20 @@ export const Component = styled.div`
 export const Container = styled.div`
     width: 350px;
     height: 400px;
+    /* background: #FFFFFF; */
+    box-shadow: 15px 15px 0px var(--shadow);
+    border-radius: 6px;
+    margin: 0 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: var(--areaBackground);
+`;
+export const MobileContainer = styled.div`
+    width: 250px;
+    height: 200px;
     /* background: #FFFFFF; */
     box-shadow: 15px 15px 0px var(--shadow);
     border-radius: 6px;
@@ -166,5 +180,8 @@ export const Linkedin = styled(AiFillLinkedin)`
     height: 25px; width: 25px;
 `;
 export const Reddit = styled(AiFillRedditCircle)`
+    height: 25px; width: 25px;
+`;
+export const Facebook = styled(AiFillFacebook)`
     height: 25px; width: 25px;
 `;

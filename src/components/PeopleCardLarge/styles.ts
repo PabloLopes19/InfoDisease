@@ -34,7 +34,7 @@ export const PhotoSide = styled.div`
     border-radius: 16px;
     /* background: black; */
     background-image: url(${PabloUserImg});
-    background-size: contain;
+    background-size: cover;
     margin-left: 30px;
     margin-right: 30px;
 `;

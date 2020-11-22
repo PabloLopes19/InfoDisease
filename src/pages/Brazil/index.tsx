@@ -18,6 +18,8 @@ const Brazil: React.FC = () => {
     const [timeDate, setTimetDate] = useState('DD/MM/YYYY');
 
     useEffect(() => {
+        window.scrollTo(0, 0);
+
         api.get('/api/report/v1')
         .then(response => {
             SetStates(response.data.data);
@@ -27,8 +29,6 @@ const Brazil: React.FC = () => {
         .catch(err => {
             console.log(err);
         });
-
-        window.scrollTo(0, 0);
     }, []);
 
     setTimeout(() => {

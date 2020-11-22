@@ -1,15 +1,22 @@
 import React from 'react';
 
-import { Component, Container, ContainerTop, ContainerBottom, PetriPhoto, TalitaPhoto, MagnoPhoto, ContainerTopRight, ContainerRightTop, ContainerRightMid, ContainerRightBottom, Name, ClassLine, Class, ClassName, SocialMediaButtons, Instagram, CardText, Linkedin, Github } from './styles';
+import { Component, Container, ContainerTop, ContainerBottom, PetriPhoto, TalitaPhoto, MagnoPhoto, ContainerTopRight, ContainerRightTop, ContainerRightMid, ContainerRightBottom, Name, ClassLine, Class, ClassName, SocialMediaButtons, Instagram, CardText, Linkedin, Github, Facebook, MobileContainer } from './styles';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Navigation, Pagination } from 'swiper';
+import 'swiper/swiper-bundle.css';
 
 import './styles.css';
 
 const PeopleCardSquare: React.FC = () => {
+
+    SwiperCore.use([ Navigation, Pagination ]);
+
   return (
         <Component>
-            <Container>
+            <Container id="photoSide" >
                 <ContainerTop>
-                    <PetriPhoto />
+                    <PetriPhoto id="photoSide" />
                     <ContainerTopRight>
                         <ContainerRightTop><Name>Marcelo Petri</Name></ContainerRightTop>
                         <ContainerRightMid>
@@ -24,8 +31,8 @@ const PeopleCardSquare: React.FC = () => {
                         </ContainerRightMid>
                         <ContainerRightBottom>
                             <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.linkedin.com/in/marcelopetri/?originalSubdomain=br" ><Linkedin className="Icon"/></SocialMediaButtons>
-                            <SocialMediaButtons className="BtnSocialMedia" href="#" ><Github className="Icon"/></SocialMediaButtons>
-                            <SocialMediaButtons className="BtnSocialMedia" href="#" ><Instagram className="Icon"/></SocialMediaButtons>
+                            <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="#" ><Github className="Icon"/></SocialMediaButtons>
+                            <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.instagram.com/petrioficial/" ><Instagram className="Icon"/></SocialMediaButtons>
                         </ContainerRightBottom>
                     </ContainerTopRight>
                 </ContainerTop>
@@ -36,11 +43,11 @@ const PeopleCardSquare: React.FC = () => {
 
 
 
-            <Container>
-                <ContainerTop>
-                    <TalitaPhoto />
+            <Container id="photoSide">
+                <ContainerTop id="TopSide">
+                    <TalitaPhoto id="photoSide"/>
                     <ContainerTopRight>
-                        <ContainerRightTop><Name>Talita Schmitt</Name></ContainerRightTop>
+                        <ContainerRightTop id="RightTop"><Name>Talita Schmitt</Name></ContainerRightTop>
                         <ContainerRightMid>
                             <ClassLine>
                                 <Class>Matéria: </Class>
@@ -52,22 +59,22 @@ const PeopleCardSquare: React.FC = () => {
                             </ClassLine>
                         </ContainerRightMid>
                         <ContainerRightBottom>
-                            <SocialMediaButtons className="BtnSocialMedia" href="#" ><Linkedin className="Icon"/></SocialMediaButtons>
-                            <SocialMediaButtons className="BtnSocialMedia" href="#" ><Github className="Icon"/></SocialMediaButtons>
-                            <SocialMediaButtons className="BtnSocialMedia" href="#" ><Instagram className="Icon"/></SocialMediaButtons>
+                            <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.linkedin.com/in/talita-caroline-oliveira-schmitt-482691138/" ><Linkedin className="Icon"/></SocialMediaButtons>
+                            <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.facebook.com/talita.schmitt" ><Facebook className="Icon"/></SocialMediaButtons>
+                            <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.instagram.com/talita_schmitt/" ><Instagram className="Icon"/></SocialMediaButtons>
                         </ContainerRightBottom>
                     </ContainerTopRight>
                 </ContainerTop>
                 <ContainerBottom>
-                    <CardText style={{ fontSize: 17 }}>Professora da Escola Técnica Tupy há 11 anos e empresária do ramo de Gestão de Documentos. Já atuou como Gerente de Projetos de Redes de Computadores. É Mestre em Engenharia Mecânica, MBA em Gestão de Projetos, Bacharel em Sistemas de Informação e Técnica em Telecomunicações.</CardText>
+                    <CardText id="photoSide" style={{ fontSize: 17 }}>Professora da Escola Técnica Tupy há 11 anos e empresária do ramo de Gestão de Documentos. Já atuou como Gerente de Projetos de Redes de Computadores. É Mestre em Engenharia Mecânica, MBA em Gestão de Projetos, Bacharel em Sistemas de Informação e Técnica em Telecomunicações.</CardText>
                 </ContainerBottom>
             </Container>
 
 
 
-            <Container>
+            <Container id="photoSide">
                 <ContainerTop>
-                    <MagnoPhoto />
+                    <MagnoPhoto id="photoSide" />
                     <ContainerTopRight>
                         <ContainerRightTop><Name style={{ fontSize: 22 }}>Magno Schmitt</Name></ContainerRightTop>
                         <ContainerRightMid>
@@ -81,16 +88,89 @@ const PeopleCardSquare: React.FC = () => {
                             </ClassLine>
                         </ContainerRightMid>
                         <ContainerRightBottom>
-                            <SocialMediaButtons className="BtnSocialMedia" href="#" ><Linkedin className="Icon"/></SocialMediaButtons>
-                            <SocialMediaButtons className="BtnSocialMedia" href="#" ><Github className="Icon"/></SocialMediaButtons>
-                            <SocialMediaButtons className="BtnSocialMedia" href="#" ><Instagram className="Icon"/></SocialMediaButtons>
+                            <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.linkedin.com/in/magno-de-souza-schmitt-429910148/" ><Linkedin className="Icon"/></SocialMediaButtons>
+                            <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.facebook.com/magnodesouza.schmitt" ><Facebook className="Icon"/></SocialMediaButtons>
+                            <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.instagram.com/magnoschmitt/" ><Instagram className="Icon"/></SocialMediaButtons>
                         </ContainerRightBottom>
                     </ContainerTopRight>
                 </ContainerTop>
                 <ContainerBottom>
-                    <CardText>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi aspernatur ex sequi consectetur earum. Veritatis officia minus quos, iusto necessitatibus animi rerum delectus voluptas beatae earum hic nostrum, illo cum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est accusamus obcaecati animi corrupti perferendis doloremque provident eveniet</CardText>
+                    <CardText style={{ fontSize: 17 }}>Professor da Escola Técnica Tupy há 7 anos e empresário do ramo de Gestão de Documentos. Já atuou na indústria, em laboratório de Termodinâmica, de ensaios e de Mecânica. É Mestre em Engenharia Mecânica, Tecnólogo em Mecânica e Técnico em Eletrônica.</CardText>
                 </ContainerBottom>
             </Container>
+
+            <div className="mobile">
+                <Swiper
+                        className="Swiper"
+                        id="SwiperProf"
+                        style={{ width: 280 }}
+                        spaceBetween={100}
+                        slidesPerView={1}
+                        onSlideChange={() => console.log('slide change')}
+                        pagination={{ dynamicBullets: true, clickable: true}}
+                        >
+                        <SwiperSlide id="Slider">
+                            <MobileContainer>
+                                <ContainerRightTop><Name style={{ fontSize: 22, textAlign: 'center' }}>Talita Schmitt</Name></ContainerRightTop>
+                                <ContainerRightMid id="ProfData">
+                                        <ClassLine id="ProfText">
+                                            <Class>Matéria: </Class>
+                                            <ClassName style={{ fontSize: 11 }}>Desen. de sistemas</ClassName>
+                                        </ClassLine>
+                                        <ClassLine id="ProfText">
+                                            <Class>Turma: </Class>
+                                            <ClassName>IN221</ClassName>
+                                        </ClassLine>
+                                    </ContainerRightMid>
+                                <ContainerRightBottom id="SocialMediasProf">
+                                    <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.linkedin.com/in/talita-caroline-oliveira-schmitt-482691138/" ><Linkedin className="Icon"/></SocialMediaButtons>
+                                    <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.facebook.com/talita.schmitt" ><Facebook className="Icon"/></SocialMediaButtons>
+                                    <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.instagram.com/talita_schmitt/" ><Instagram className="Icon"/></SocialMediaButtons>
+                                </ContainerRightBottom>
+                            </MobileContainer>
+                        </SwiperSlide>
+                        <SwiperSlide id="Slider">
+                            <MobileContainer>
+                                <ContainerRightTop><Name style={{ fontSize: 22, textAlign: 'center' }}>Magno Schmitt</Name></ContainerRightTop>
+                                <ContainerRightMid id="ProfData">
+                                        <ClassLine id="ProfText">
+                                            <Class>Matéria: </Class>
+                                            <ClassName>Arduíno</ClassName>
+                                        </ClassLine>
+                                        <ClassLine id="ProfText">
+                                            <Class>Turma: </Class>
+                                            <ClassName>IN221</ClassName>
+                                        </ClassLine>
+                                    </ContainerRightMid>
+                                <ContainerRightBottom id="SocialMediasProf">
+                                    <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.linkedin.com/in/magno-de-souza-schmitt-429910148/" ><Linkedin className="Icon"/></SocialMediaButtons>
+                                    <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.facebook.com/magnodesouza.schmitt" ><Facebook className="Icon"/></SocialMediaButtons>
+                                    <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.instagram.com/magnoschmitt/" ><Instagram className="Icon"/></SocialMediaButtons>
+                                </ContainerRightBottom>
+                            </MobileContainer>
+                        </SwiperSlide>
+                        <SwiperSlide id="Slider">
+                            <MobileContainer>
+                                <ContainerRightTop><Name style={{ fontSize: 22, textAlign: 'center' }}>Marcelo Petri</Name></ContainerRightTop>
+                                <ContainerRightMid id="ProfData">
+                                        <ClassLine id="ProfText">
+                                            <Class>Matéria: </Class>
+                                            <ClassName>Desen. Web</ClassName>
+                                        </ClassLine>
+                                        <ClassLine id="ProfText">
+                                            <Class>Turma: </Class>
+                                            <ClassName>IN221</ClassName>
+                                        </ClassLine>
+                                    </ContainerRightMid>
+                                <ContainerRightBottom id="SocialMediasProf">
+                                    <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.linkedin.com/in/marcelopetri/?originalSubdomain=br" ><Linkedin className="Icon"/></SocialMediaButtons>
+                                    <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="#" ><Github className="Icon"/></SocialMediaButtons>
+                                    <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.instagram.com/petrioficial/" ><Instagram className="Icon"/></SocialMediaButtons>
+                                </ContainerRightBottom>
+                            </MobileContainer>
+                        </SwiperSlide>
+                    </Swiper>
+            </div>
         </Component>
     );
 }

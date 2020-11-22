@@ -1,0 +1,30 @@
+.menuText{
+    list-style-type: none;
+    /* margin-top: 20px; */
+    padding: 0 10px;
+}
+#menuTextButton{
+    color: var(--textTitle);
+    text-decoration: none;
+    padding: 20px 10px;
+    flex-direction: row;
+    vertical-align: middle;
+    /* display: flex; */
+}
+#menuTextButton li{
+    display: flex;
+    align-items: center;
+}
+#icon{
+    margin-right: 5px;
+}
+#closeButton{
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}

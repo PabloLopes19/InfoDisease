@@ -23,7 +23,7 @@ const PeopleCardLarge: React.FC = () => {
                     </DataSideTopRight>
                 </DataSideTop>
                 <DataSideBottom id="SideBottom">
-                    <DataText id="DataText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</DataText>
+                    <DataText id="DataText">Desenvolvedor Web e Mobile. Líder do projeto InfoDisease e além de outros projetos pessoais e comerciais. Conhecimento em tecnologias Web como HTML, CSS3, JavaScript e bibliotecas como ReactJs, assim como a sua versão para desenvolvimento Mobile, com React Native. Atualmente cursando o segundo ano do ensino médio na EEB Prof. Germano Timm e terminando o primeiro ano em técnico de informática da ETT. Fã de tecnologia, programação e F1, apaixonado por desafios e novos projetos.</DataText>
                 </DataSideBottom>
             </DataSide>
         </LeftCard>
@@ -61,7 +61,7 @@ const PeopleCardLarge: React.FC = () => {
                     </DataSideTopRight>
                 </DataSideTop>
                 <DataSideBottom>
-                    <DataText id="DataText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</DataText>
+                    <DataText id="DataText">Estudante do curso técnico de Informática da ETT, cursando 2º ano do ensino médio. Youtuber gamer com computador manco.</DataText>
                 </DataSideBottom>
             </DataSide>
         </LeftCard>

@@ -39,7 +39,7 @@ export const Bottom = styled.div`
     padding: 10px 20px;
     color: var(--textDescription);
 `;
-export const AccessButton = styled.p`
+export const AccessButton = styled.a`
     background: var(--blue);
     color: #fff;
     font-weight: bold;

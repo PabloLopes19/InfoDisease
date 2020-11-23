@@ -1,58 +1,56 @@
-# WeatherApp  
+# InfoDisease
 
-> v0.1 ALPHA
+`Open BETA 23/11`
 
+O InfoDisease é uma aplicação voltada para o fornecimento e análise de dados sobre o avanço do corona vírus (COVID-19) dentro e fora do Brasil. Você terá acesso a dados sobre o número de vítimas, de recuperados e de infectados em todos os estados brasileiros e em todos os países no mundo. Caso você não queira ver todos os dados, você pode fazer uma pesquisa para filtrar os dados, tendo que fazer a busca com os nomes dos países em inglês.
 
-O WeatherApp é um projeto desenvolvido pelos alunos da Escola Técnica Tupy, Pablo Lopes Caios Bornatto e Elias Kersten. O projeto consiste em uma aplicação Web desenvolvida em ReactJs e que tem o simples objetivo de informar para os usuários as condições climáticas sobre determinado local, e informar as condições e o avanço do COVID-19 dentro e fora do Brasil.
+O InfoDisease foi criado e desenvolvido pelos alunos da escola técnica Tupy, Pablo Lopes, Caio Bornatto e Elias Kersten. Ele foi desenvolvido para o projeto integrador do segundo semestre de 2020 e será apresentado dia 08/12/2020. (caso você esteja lendo isso, já apresentamos :D) 
 
-A aplicação consiste em básicamente cinco páginas, a página **Dashboard** simplesmente da as boas vindas à aplicação e mostra alguns dados de países escolhidos estaticamente. As outras duas páginas o usuário pode realmente ver os dados desejados, escolhendo entre **Brasil** e **Mundo**. A quarta página é **sobre** os desenvolvedores, apenas falando sobre nós, o projeto e os desenvolvedores das APIs que nos possibiliataram desenvolver essa aplicação (Obrigado! :)). A quinta e última página é o **Support Us** que redireciona o usuário para esse repositório no github, onde ele pode divulgar o projeto ou contribuir para o desenvolvimento dele após a publicação da versão LTS.
+## Open Source 
 
-## Open Source
+O InfoDisease é um projeto de código aberto! Ou sejam você e qualquer um que queira contribuir e possui os conhecimentos necessários para contribuir criando novas funcionalidades, temas ou até correções de bugs da aplicação. Basta digitar o seguinte comando no seu terminal: `git clone https://github.com/PabloLopes19/InfoDisease.git`
 
-Esse é um projeto de código aberto! :D Isso significa que você pode baixa-lo na sua máquina, digitando o seguinte comando no seu Terminal: `git clone https://github.com/PabloLopes19/WeatherApp.git`. Você pode trazer novas funcionalidades e elas podem ser adicionadas na versão final da aplicação em futuras atualizações!
+## Tecnologias usadas
 
-## Tecnologias usadas:
+- [ReactJs](https://pt-br.reactjs.org/)
+- [NodeJs](https://nodejs.org/en/)
 
-- [React Js](https://pt-br.reactjs.org/)
-- [Node Js](https://nodejs.org/en/) 
+## APIs usadas 
 
+- [COVID-19](https://covid19-brazil-api.now.sh/) (Muito obrigado pelo belo trabalho, dêem uma força para eles! :) )
 
+## Screenshots
 
-## APIs usadas:
+![ScreenshotLightThemeDashboard](/screenshots/LightTheme.png)
 
-- [Weather](https://github.com/CaioBornatto/caiob-weahter-app)
-- [COVID-19](https://covid19-brazil-api.now.sh/)
+## Dark Mode!!! :D
 
-Dêem uma força para esse trabalho incrível que eles estão fazendo! :)
+![ScreenshotDarkThemeDashboard](/screenshots/DarkTheme.png)
 
+## Um gostinho da Apliação....
 
+![ScreenshotDataLight](/screenshots/DataPageLightTheme.png)
 
-## UI/UX
+### Dark Mode
 
-![Dashboard](./screenshots/AppScreenshot1.jpeg "Dashboard Light Theme")
-
-# Dark Mode!!!! :D
-
-![DarkMode](./screenshots/DarkMode.jpg "DarkMode")
-
-
+![ScreenshotDataLight](/screenshots/DataPageDarkTheme.png)
 
 # Devs
 
-**[Pablo Lopes](https://github.com/PabloLopes19)**
+#### Pablo Lopes
 
-- Dev React/React Native
+- Dev ReactJs/React Native
 - UI/UX
 - Development and Art Director
 
-**[Caio Bornatto](https://github.com/CaioBornatto)**
+#### Caio Bornatto
 
 - Dev NodeJs
 - Suporte React/React Native
 - App Data Director
 
-**[Elias Kersten](https://www.youtube.com/channel/UClSzLCvmkSRnFk-Rh0pX4Ig)**
+#### Elias Kersten
 
 - UI/UX
-- Art and User Interface development
+- Art and User Interface deevelopment
 - Creative development

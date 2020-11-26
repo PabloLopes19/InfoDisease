@@ -18,6 +18,8 @@ const WorldWide: React.FC = () => {
   const [Loading, setLoading] = useState(true);
   const [Search, setSearch] = useState('');
 
+  const formatter = new Intl.NumberFormat('pt-BR');
+
   useEffect(() => {
 
     api.get('/api/report/v1/countries')
@@ -93,9 +95,9 @@ const WorldWide: React.FC = () => {
                               <CovidDataTitle>Mortes</CovidDataTitle>
                           </CovidLeft>
                           <CovidRight>
-                              <CovidData>{ Country.cases }</CovidData>
-                              <CovidData>{ Country.confirmed }</CovidData>
-                              <CovidData>{ Country.deaths }</CovidData>
+                              <CovidData>{ formatter.format(Country.cases) }</CovidData>
+                              <CovidData>{ formatter.format(Country.confirmed) }</CovidData>
+                              <CovidData>{ formatter.format(Country.deaths) }</CovidData>
                           </CovidRight>
                         </CovidContent>
                       </Container>

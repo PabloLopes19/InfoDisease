@@ -42,7 +42,7 @@ const PeopleCardLarge: React.FC = () => {
                     </DataSideTopRightReverse>
                 </DataSideTopReverse>
                 <DataSideBottom>
-                    <DataText id="DataText">Desenvolvedor Node JS júnior na parte de back end. Conhecimento em tecnologias web como HTML , Java Script (Node JS) além de conhecimento básico de C# e Python, Já desenvolvi uma api em Node Js . Ensino médio completo e atualmente cursando na Escola Técnica Tupy (ETT) e candidato a vaga de estagiário na AXE tcnologia.</DataText>
+                    <DataText id="DataText">Desenvolvedor Node JS júnior na parte de back end. Conhecimento em tecnologias web como HTML , Java Script (Node JS) além de conhecimento básico de C# e Python, Já desenvolvi uma api em Node Js . Ensino médio completo e atualmente cursando na Escola Técnica Tupy (ETT) e candidato a vaga de estagiário na AXE tecnologia.</DataText>
                 </DataSideBottom>
             </DataSide>
         </RightCard>
@@ -61,7 +61,7 @@ const PeopleCardLarge: React.FC = () => {
                     </DataSideTopRight>
                 </DataSideTop>
                 <DataSideBottom>
-                    <DataText id="DataText">Estudante do curso técnico de Informática da ETT, cursando 2º ano do ensino médio. Youtuber gamer com computador manco.</DataText>
+                    <DataText id="DataText">Youtuber iniciante que grava vídeos em uma qualidade duvidosa e edita imagens para o Fiverr e Vintepila. Tem uma curiosidade impulsiva em desmontar todos os aparelhos de Hardware da casa. Já fez um curso de Phyton mas só lembra fazer lista e soma básica. Atualmente é aluno do técnico de Informática da ETT e cursa o segundo ano do ensino médio na escolaestadual basica Professor Arnaldo Moreira Doat.</DataText>
                 </DataSideBottom>
             </DataSide>
         </LeftCard>

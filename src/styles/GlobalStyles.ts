@@ -168,6 +168,21 @@ export default createGlobalStyle`
         #BackToTop{
             margin-top: 150px;
         }
+        .downloadArtigo:hover .techIcon{
+            transform: translateY(0);
+        }
+        .downloadArtigo:hover p{
+            opacity: 0; 
+        }
+        .btnTech:hover .techIcon{
+            transform: translateY(0);
+        }
+        .btnTech:hover, .downloadArtigo:hover{
+            border: 3px solid transparent;
+        }
+        .btnTech:hover p{
+            opacity: 0; 
+        }
     }
     @media(max-width: 721px){
         #Title{

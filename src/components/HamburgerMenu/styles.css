@@ -9,6 +9,7 @@
     padding: 20px 10px;
     flex-direction: row;
     vertical-align: middle;
+    background: #333;
     /* display: flex; */
 }
 #menuTextButton li{

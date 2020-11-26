@@ -17,6 +17,8 @@ const Brazil: React.FC = () => {
     const [search, setSearch] = useState('');
     const [timeDate, setTimetDate] = useState('DD/MM/YYYY');
 
+    const formatter = new Intl.NumberFormat('en');
+
     useEffect(() => {
         window.scrollTo(0, 0);
 
@@ -89,9 +91,10 @@ const Brazil: React.FC = () => {
                                                 <CovidDataTitle>Mortes</CovidDataTitle>
                                             </CovidLeft>
                                             <CovidRight>
-                                                <CovidData>{ State.cases }</CovidData>
-                                                <CovidData>{ State.suspects }</CovidData>
-                                                <CovidData>{ State.deaths }</CovidData>
+                                                {/* <CovidData>{ State.cases }</CovidData> */}
+                                                <CovidData>{ formatter.format(State.cases) }</CovidData>
+                                                <CovidData>{ formatter.format(State.suspects) }</CovidData>
+                                                <CovidData>{ formatter.format(State.deaths) }</CovidData>
                                             </CovidRight>
                                         </CovidContent>
                                     </Container>

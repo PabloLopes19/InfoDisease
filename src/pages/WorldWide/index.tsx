@@ -18,7 +18,7 @@ const WorldWide: React.FC = () => {
   const [Loading, setLoading] = useState(true);
   const [Search, setSearch] = useState('');
 
-  const formatter = new Intl.NumberFormat('en');
+  const formatter = new Intl.NumberFormat('pt-BR');
 
   useEffect(() => {
 

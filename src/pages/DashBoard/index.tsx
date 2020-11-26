@@ -20,7 +20,7 @@ function DashBoard() {''
     const [China, setChina] = useState<any>([]);
     const [Loading, setLoading] = useState(true);
 
-    const formatter = new Intl.NumberFormat('en');
+    const formatter = new Intl.NumberFormat('pt-BR');
 
 
     SwiperCore.use([ Navigation, Pagination ]);
@@ -169,9 +169,9 @@ function DashBoard() {''
                                         <CovidDataTitle id="CovidDataTitle">Mortes</CovidDataTitle>
                                     </CovidLeft>
                                     <CovidRight>
-                                        <CovidData id="CovidData">{Brazil.cases}</CovidData>
-                                        <CovidData id="CovidData">{Brazil.confirmed}</CovidData>
-                                        <CovidData id="CovidData">{Brazil.deaths}</CovidData>
+                                        <CovidData id="CovidData">{formatter.format(Brazil.cases)}</CovidData>
+                                        <CovidData id="CovidData">{formatter.format(Brazil.confirmed)}</CovidData>
+                                        <CovidData id="CovidData">{formatter.format(Brazil.deaths)}</CovidData>
                                     </CovidRight>
                                 </CovidContent>
                             </Container>
@@ -187,9 +187,9 @@ function DashBoard() {''
                                         <CovidDataTitle id="CovidDataTitle">Mortes</CovidDataTitle>
                                     </CovidLeft>
                                     <CovidRight>
-                                        <CovidData id="CovidData">{USA.cases}</CovidData>
-                                        <CovidData id="CovidData">{USA.confirmed}</CovidData>
-                                        <CovidData id="CovidData">{USA.deaths}</CovidData>
+                                        <CovidData id="CovidData">{formatter.format(USA.cases)}</CovidData>
+                                        <CovidData id="CovidData">{formatter.format(USA.confirmed)}</CovidData>
+                                        <CovidData id="CovidData">{formatter.format(USA.deaths)}</CovidData>
                                     </CovidRight>
                                 </CovidContent>
                             </Container>
@@ -205,9 +205,9 @@ function DashBoard() {''
                                     <CovidDataTitle id="CovidDataTitle">Mortes</CovidDataTitle>
                                 </CovidLeft>
                                 <CovidRight>
-                                    <CovidData id="CovidData">{China.cases}</CovidData>
-                                    <CovidData id="CovidData">{China.confirmed}</CovidData>
-                                    <CovidData id="CovidData">{China.deaths}</CovidData>
+                                    <CovidData id="CovidData">{formatter.format(China.cases)}</CovidData>
+                                    <CovidData id="CovidData">{formatter.format(China.confirmed)}</CovidData>
+                                    <CovidData id="CovidData">{formatter.format(China.deaths)}</CovidData>
                                 </CovidRight>
                             </CovidContent>
                         </Container>

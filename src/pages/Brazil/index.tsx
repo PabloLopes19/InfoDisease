@@ -17,7 +17,7 @@ const Brazil: React.FC = () => {
     const [search, setSearch] = useState('');
     const [timeDate, setTimetDate] = useState('DD/MM/YYYY');
 
-    const formatter = new Intl.NumberFormat('en');
+    const formatter = new Intl.NumberFormat('pt-BR');
 
     useEffect(() => {
         window.scrollTo(0, 0);

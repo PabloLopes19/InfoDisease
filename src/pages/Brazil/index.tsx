@@ -40,7 +40,7 @@ const Brazil: React.FC = () => {
         var Year = date.getFullYear();
         
         setTimetDate(`${Day}/${Month}/${Year}`);
-    }, 1000);
+    }, 500);
 
     const filterStatesData = States.filter(State => {
         return State.state.toLowerCase().includes(search.toLowerCase());

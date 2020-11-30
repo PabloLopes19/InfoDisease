@@ -42,7 +42,7 @@ const WorldWide: React.FC = () => {
       var Year = date.getFullYear();
       
       setTimetDate(`${Day}/${Month}/${Year}`);
-  }, 1000);
+  }, 500);
 
   const filterCountryData = Countries.filter(Country => {
       return Country.country.toLowerCase().includes(Search.toLowerCase());

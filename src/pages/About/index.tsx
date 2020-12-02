@@ -59,7 +59,7 @@ const About: React.FC = () => {
               <ApiCard />
             </div>
             <div className="downloadArtigo">
-              <a href={require('../../assets/pdfDocs/Artigo Projeto Integrador 2020 - InfoDisease.pdf')} download="Artigo_InfoDisease.pdf" className="btnTech">
+              <a rel="noopener noreferrer" href="https://drive.google.com/file/d/1Uk4idqAhDqJdclAiZHf9iyjdd3Mrymfm/view?usp=sharing" target="_blank" className="btnTech">
                 <CardContainer className="btnTech"  > 
                   <AiFillFileText size={150} className="techIcon"/>
                   <p>Baixe o artigo</p>

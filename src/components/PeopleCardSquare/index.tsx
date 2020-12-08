@@ -31,7 +31,7 @@ const PeopleCardSquare: React.FC = () => {
                         </ContainerRightMid>
                         <ContainerRightBottom>
                             <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.linkedin.com/in/marcelopetri/?originalSubdomain=br" ><Linkedin className="Icon"/></SocialMediaButtons>
-                            <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="#" ><Github className="Icon"/></SocialMediaButtons>
+                            <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://github.com/marcelopetri" ><Github className="Icon"/></SocialMediaButtons>
                             <SocialMediaButtons className="BtnSocialMedia" target="_blank" href="https://www.instagram.com/petrioficial/" ><Instagram className="Icon"/></SocialMediaButtons>
                         </ContainerRightBottom>
                     </ContainerTopRight>

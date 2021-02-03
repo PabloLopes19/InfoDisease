@@ -27,7 +27,7 @@ function Footer() {
               <Button onClick={alert} className="btnLinkFooter"><Share className="icon"/><p className="btnText" style={{ fontSize: 10, }}>Compartilhar</p></Button>
             </CopyToClipboard>
         </Content>
-        <Copyright>InfoDisease | 2020</Copyright>
+        <Copyright>InfoDisease | 2021</Copyright>
     </Container>  
   );
 }

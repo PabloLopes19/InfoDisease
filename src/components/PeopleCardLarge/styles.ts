@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { AiFillGithub, AiOutlineInstagram, AiFillLinkedin, AiFillRedditCircle, AiFillYoutube } from 'react-icons/ai';
 import { FaDiscord } from 'react-icons/fa';
 
-import PabloUserImg from '../../assets/MyUserImg.jpeg';
+import PabloUserImg from '../../assets/MyUserImg.jpg';
 import CaioUserImg from '../../assets/CaioProfilePic.jpeg';
 import EliasUserImg from '../../assets/EliasProfilePIc.jpeg';
 

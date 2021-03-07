@@ -23,7 +23,7 @@ const PeopleCardLarge: React.FC = () => {
                     </DataSideTopRight>
                 </DataSideTop>
                 <DataSideBottom id="SideBottom">
-                    <DataText id="DataText">Desenvolvedor Web e Mobile. Líder do projeto InfoDisease além de outros projetos pessoais e comerciais. Conhecimento em tecnologias Web como HTML, CSS3, JavaScript e bibliotecas como ReactJs, assim como a sua versão para desenvolvimento Mobile, com React Native. Atualmente cursando o segundo ano do ensino médio na EEB Prof. Germano Timm e terminando o primeiro ano em técnico de informática da ETT. Fã de tecnologia, programação e F1, apaixonado por desafios e novos projetos.</DataText>
+                    <DataText id="DataText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</DataText>
                 </DataSideBottom>
             </DataSide>
         </LeftCard>
@@ -42,7 +42,7 @@ const PeopleCardLarge: React.FC = () => {
                     </DataSideTopRightReverse>
                 </DataSideTopReverse>
                 <DataSideBottom>
-                    <DataText id="DataText">Desenvolvedor Node JS júnior na parte de back end. Conhecimento em tecnologias web como HTML , Java Script (Node JS) além de conhecimento básico de C# e Python, Já desenvolvi uma api em Node Js . Ensino médio completo e atualmente cursando na Escola Técnica Tupy (ETT) e candidato a vaga de estagiário na AXE tecnologia.</DataText>
+                    <DataText id="DataText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</DataText>
                 </DataSideBottom>
             </DataSide>
         </RightCard>
@@ -61,7 +61,7 @@ const PeopleCardLarge: React.FC = () => {
                     </DataSideTopRight>
                 </DataSideTop>
                 <DataSideBottom>
-                    <DataText id="DataText">Youtuber iniciante que grava vídeos em uma qualidade duvidosa e edita imagens para o Fiverr e Vintepila. Tem uma curiosidade impulsiva em desmontar todos os aparelhos de Hardware da casa. Já fez um curso de Phyton mas só lembra fazer lista e soma básica. Atualmente é aluno do técnico de Informática da ETT e cursa o segundo ano do ensino médio na escolaestadual basica Professor Arnaldo Moreira Doat.</DataText>
+                    <DataText id="DataText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</DataText>
                 </DataSideBottom>
             </DataSide>
         </LeftCard>

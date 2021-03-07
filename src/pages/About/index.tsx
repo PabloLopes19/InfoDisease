@@ -59,12 +59,10 @@ const About: React.FC = () => {
               <ApiCard />
             </div>
             <div className="downloadArtigo">
-              <a rel="noopener noreferrer" href="https://drive.google.com/file/d/1Uk4idqAhDqJdclAiZHf9iyjdd3Mrymfm/view?usp=sharing" target="_blank" className="btnTech">
-                <CardContainer className="btnTech"  > 
-                  <AiFillFileText size={150} className="techIcon"/>
-                  <p>Baixe o artigo</p>
-                </CardContainer>
-              </a>
+              <CardContainer className="btnTech"> 
+                <AiFillFileText size={150} className="techIcon"/>
+                <p>Baixe o artigo</p>
+              </CardContainer>
 
               <div className="ThanksText">
                 <h1>Obrigado!</h1>

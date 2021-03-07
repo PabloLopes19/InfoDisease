@@ -22,6 +22,7 @@ function DashBoard() {''
 
     const formatter = new Intl.NumberFormat('pt-BR');
 
+
     SwiperCore.use([ Navigation, Pagination ]);
 
   useEffect(() => {
@@ -59,7 +60,7 @@ function DashBoard() {''
             <Content> 
               <Title id="Title">Seja bem-vindo!</Title>
               <Description id="Descritpion2">
-                O InfoDisease é uma aplicação voltada para o fornecimento e análise de dados sobre o avanço do corona vírus (COVID-19) dentro e fora do Brasil. Você terá acesso a dados sobre o número de vítimas, de recuperados e de infectados em todos os estados brasileiros e em todos os países no mundo. Caso você não queira ver todos os dados, você pode fazer uma pesquisa para filtrar os dados, tendo que fazer a busca com os nomes dos países em inglês.
+                O InfoDisease é uma aplicação voltada para o fornecimento e análise de dados sobre o avanço do corona vírus (COVID-19) dentro e fora do Brasil. Você terá acesso a dados sobre o número de vítimas, de recuperados e de infectados em todos os estados brasileiros e em todos os países no mundo. Caso você não queira ver todos os dados, você pode fazer uma pesquisa para filtrar os dados, tendo fazer a busca com os nomes dos países em inglês.
               </Description>
               <CardsArea>
                   <TitleMedium>Dados de países</TitleMedium>
@@ -91,7 +92,7 @@ function DashBoard() {''
             <Content> 
               <Title id="Title">Seja bem-vindo!</Title>
               <Description id="Descritpion2">
-              O InfoDisease é uma aplicação voltada para o fornecimento e análise de dados sobre o avanço do corona vírus (COVID-19) dentro e fora do Brasil. Você terá acesso a dados sobre o número de vítimas, de recuperados e de infectados em todos os estados brasileiros e em todos os países no mundo. Caso você não queira ver todos os dados, você pode fazer uma pesquisa para filtrar os dados, tendo que fazer a busca com os nomes dos países em inglês.
+                O InfoDisease é uma aplicação voltada para o fornecimento e análise de dados sobre o avanço do corona vírus (COVID-19) dentro e fora do Brasil. Você terá acesso a dados sobre o número de vítimas, de recuperados e de infectados em todos os estados brasileiros e em todos os países no mundo. Caso você não queira ver todos os dados, você pode fazer uma pesquisa para filtrar os dados, tendo fazer a busca com os nomes dos países em inglês.
               </Description>
               <CardsArea>
                   <TitleMedium>Dados de países</TitleMedium>

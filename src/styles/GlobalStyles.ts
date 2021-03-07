@@ -165,24 +165,6 @@ export default createGlobalStyle`
         .mobile{
             display: initial;
         }
-        #BackToTop{
-            margin-top: 150px;
-        }
-        .downloadArtigo:hover .techIcon{
-            transform: translateY(0);
-        }
-        .downloadArtigo:hover p{
-            opacity: 0; 
-        }
-        .btnTech:hover .techIcon{
-            transform: translateY(0);
-        }
-        .btnTech:hover, .downloadArtigo:hover{
-            border: 3px solid transparent;
-        }
-        .btnTech:hover p{
-            opacity: 0; 
-        }
     }
     @media(max-width: 721px){
         #Title{
@@ -245,7 +227,6 @@ export default createGlobalStyle`
         }
         #BackToTop{
             font-size: 13px;
-            margin-top: 250px;
             border-radius: 35px;
             width: 200px;
             transform: translateY(-100px);
@@ -294,6 +275,13 @@ export default createGlobalStyle`
             flex-direction: column;
             height: 100px;
             padding-top: 20px;
+        }
+        .usedApis{
+            margin-top: -250px;
+            margin-bottom: -150px;
+        }
+        .ThanksText{
+            transform: translateY(-150px);
         }
     }
     @media(max-width: 466px){

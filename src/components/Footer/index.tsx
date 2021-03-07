@@ -23,7 +23,7 @@ function Footer() {
             <Link to="/about" className="btnLinkFooter"><Info className="icon"/><p className="btnText">Info</p></Link>
             <Button className="btnLinkFooter" href="https://github.com/PabloLopes19/WeatherApp" target="_blank"><Github className="icon"/><p className="btnText">Github</p></Button>
             <Link to="/cares" className="btnLinkFooter"><Virus className="icon"/><p className="btnText">Cuidados</p></Link>
-            <CopyToClipboard text="https://infodisease.vercel.app/">
+            <CopyToClipboard text="infodisease.vercel.app/">
               <Button onClick={alert} className="btnLinkFooter"><Share className="icon"/><p className="btnText" style={{ fontSize: 10, }}>Compartilhar</p></Button>
             </CopyToClipboard>
         </Content>

@@ -40,7 +40,7 @@ const Brazil: React.FC = () => {
         var Year = date.getFullYear();
         
         setTimetDate(`${Day}/${Month}/${Year}`);
-    }, 500);
+    }, 1000);
 
     const filterStatesData = States.filter(State => {
         return State.state.toLowerCase().includes(search.toLowerCase());
@@ -91,6 +91,7 @@ const Brazil: React.FC = () => {
                                                 <CovidDataTitle>Mortes</CovidDataTitle>
                                             </CovidLeft>
                                             <CovidRight>
+                                                {/* <CovidData>{ State.cases }</CovidData> */}
                                                 <CovidData>{ formatter.format(State.cases) }</CovidData>
                                                 <CovidData>{ formatter.format(State.suspects) }</CovidData>
                                                 <CovidData>{ formatter.format(State.deaths) }</CovidData>

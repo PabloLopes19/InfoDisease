@@ -44,19 +44,15 @@
 
 .menuText{
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
     /* margin-top: 20px; */
     padding: 0 10px;
 }
 #menuTextButton{
     color: var(--textTitle);
     text-decoration: none;
-    padding: 15px 0px;
+    padding: 20px 10px;
     flex-direction: row;
     vertical-align: middle;
-    /* background: #333; */
-    width: 100%;
     /* display: flex; */
 }
 #menuTextButton li{

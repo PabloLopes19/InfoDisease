@@ -11,7 +11,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 toast.configure();
 
-function Footer() {
+export default function Footer() {
   
   const alert = () => { 
     toast.success('Link Copiado!');
@@ -31,5 +31,3 @@ function Footer() {
     </Container>  
   );
 }
-
-export default Footer;
